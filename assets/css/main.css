@@ -158,7 +158,7 @@ li,
   --tp-grey-8: #FAFAFA;
   --tp-grey-9: #F5F5F5;
   --tp-text-body: #666;
-  --tp-theme-1: #F50963;
+  --tp-theme-1: #0080FF;
   --tp-border-1: #E1E1E1;
   --tp-border-2: #E6E6E6;
 }
@@ -1055,7 +1055,7 @@ div.demo img {
   visibility: hidden;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#F50963"] {
-  background-color: #F50963;
+  background-color: #0080FF;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#008080"] {
   background-color: #008080;
@@ -2958,7 +2958,7 @@ div.demo img {
   color: var(--tp-common-black);
 }
 .tp-section-title span {
-  -webkit-text-stroke: 1px #F50963;
+  -webkit-text-stroke: 1px #0080FF;
   color: transparent;
 }
 .tp-section-title i {
@@ -7882,7 +7882,7 @@ body .ui-tooltip {
 }
 .tp-footer-2-contact a {
   color: var(--tp--theme-1);
-  color: #F50963;
+  color: #0080FF;
   font-size: 14px;
   font-weight: 600;
   text-decoration: transparent;
@@ -8645,7 +8645,7 @@ body .ui-tooltip {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(246, 9, 100, 0.8);
+  background-color: rgba(0, 128, 255);
 }
 @media (max-width: 767px) {
   .tp-hero-thumb-2 img {
