@@ -5107,6 +5107,12 @@ body .ui-tooltip {
 .header-sticky.tp-header-style-2 .tp-header-menu > nav > ul > li > a::after {
   bottom: 28px;
 }
+.header-sticky.tp-header-style-2 .tp-header-menu > nav > ul > li > a {
+  color: #000000; /* Change this to your desired text color */
+}
+.header-sticky.tp-header-style-2 {
+  background-color: #ffffff; /* Change this to your desired color */
+}
 .header-sticky.tp-header-style-2.tp-header-ptb {
   padding: 0;
 }
@@ -5126,6 +5132,10 @@ body .ui-tooltip {
 .tp-header-style-2.header-sticky {
   background-color: var(--tp-common-black);
 }
+.tp-header-style-2.header-sticky {
+  background-color: #ffffff; /* Change this to your desired color */
+}
+
 
 .tp-header-transparent {
   position: absolute;
@@ -5572,12 +5582,13 @@ body .ui-tooltip {
 .tp-header-style-2 .tp-header-menu {
   margin-left: 80px;
 }
+.tp-header-style-2 .tp-header-menu > nav > ul > li > a {
+  color: #000000; 
+}
 .tp-header-style-2 .tp-header-menu > nav > ul > li {
   margin: 0 22px;
 }
-.tp-header-style-2 .tp-header-menu > nav > ul > li > a {
-  color: var(--tp-common-white);
-}
+
 .tp-header-style-2 .tp-header-menu > nav > ul > li > a::after {
   background-color: var(--tp-common-white);
 }
