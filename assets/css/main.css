@@ -14654,6 +14654,8 @@ body .ui-tooltip {
 }
 .tp-login-btn {
   line-height: 0;
+  margin-top: 5px;
+  margin-left: 600px;
 }
 .tp-login-btn .tp-btn-theme span i {
   margin-left: 20px;
@@ -15012,5 +15014,46 @@ body .ui-tooltip {
   font-weight: 600;
   color: var(--tp-common-black);
 }
+
+
+.tp-login-input-box select {
+  width: 100%; /* Makes the select element full width */
+  height: 40px; /* Sets the height of the select element */
+  padding: 8px; /* Adds padding inside the select element */
+  border-radius: 5px; /* Adds rounded corners to the select element */
+  border: 1px solid #ccc; /* Adds a border to the select element */
+  font-size: 16px; /* Sets the font size of the select element */
+}
+
+.tp-login-input-box label {
+  display: block; /* Makes the label a block element */
+  margin-bottom: 5px; /* Adds space below the label */
+  font-weight: bold; /* Makes the label text bold */
+}
+
+.tp-login-input {
+  position: relative; /* Makes the input container relatively positioned */
+}
+
+.tp-login-input select:focus {
+  outline: none; /* Removes the outline when the select element is focused */
+  border-color: #007bff; /* Changes the border color when the select element is focused */
+}
+
+.tp-login-input-icon {
+  position: absolute; /* Makes the icon container absolutely positioned */
+  top: 50%; /* Aligns the icon vertically centered */
+  right: 10px; /* Aligns the icon to the right with 10px spacing */
+  transform: translateY(-50%); /* Centers the icon vertically */
+}
+
+.tp-login-input-icon span {
+  color: #888; /* Sets the color of the icon */
+  cursor: pointer; /* Adds cursor pointer on hover */
+}
+
+
+
+
 
 /*# sourceMappingURL=main.css.map */
