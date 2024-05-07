@@ -15053,6 +15053,14 @@ body .ui-tooltip {
 }
 
 
+.tp-login-input select {
+    width: 100%; /* Make the select element take up full width */
+    height: 40px; /* Set the height of the select element */
+    padding: 8px; /* Add padding inside the select element */
+    border-radius: 5px; /* Add rounded corners to the select element */
+    border: 1px solid #ccc; /* Add a border to the select element */
+    font-size: 16px; /* Set the font size of the select element */
+}
 
 
 
