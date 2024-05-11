@@ -15062,6 +15062,10 @@ body .ui-tooltip {
     font-size: 16px; /* Set the font size of the select element */
 }
 
+    .mandatory {
+        color: red;
+    }
+
 
 
 /*# sourceMappingURL=main.css.map */
