@@ -9696,8 +9696,8 @@ body .ui-tooltip {
   background-color: rgba(184, 20, 64, 0.14);
 }
 .tp-listing-product-icon.product-icon-color-7 > span {
-  color: #0007FA;
-  background-color: rgba(0, 8, 250, 0.14);
+  color: #0080ff;
+  background-color: rgb(0, 128, 255);
 }
 .tp-listing-product-icon.product-icon-color-8 > span {
   color: #A7B550;
